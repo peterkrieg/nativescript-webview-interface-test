@@ -1,0 +1,22 @@
+node_modules
+
+# Built Files.
+platforms
+hooks/
+!hooks/after-prepare/build-profile.js
+
+# Transpiled typescript
+app/**/*.js
+app/**/*.css
+
+!app/www/**/*.js
+!app/www/**/*.css
+
+# Editor settings
+.vscode
+
+# Various
+report
+
+# auto-generated config file
+app/config/config.json
